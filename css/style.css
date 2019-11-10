@@ -1,0 +1,384 @@
+body{
+    font-family: sans-serif;
+    background-image: url("../images/wano.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 1100px;
+    margin:auto;
+    padding: 20px;
+    margin-top:50px;
+    background-color:#e7eff6;
+}
+.header{
+    background-color: #221177;
+    text-align: right;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	padding: 13px 0px;
+	margin-right: 20px;
+}
+ul.menubar li{
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+	padding: 0px 15px;
+    color:white;
+    text-decoration: none:
+}
+
+a.menu-link{
+    text-decoration: none;
+    color:white;
+}
+a.menu-link:hover{
+    border-bottom: 3px solid white;
+}
+.selected{
+	border-bottom: 3px solid white;
+}
+
+.content{
+    margin-top:50px;    
+}
+.image-conent{
+    width:550px;
+    float:left;
+    padding-top:50px;
+    text-align: center;
+}
+
+.image-content-description{
+    color: white;
+    width:550px;
+    float:left;
+}
+p.image-content-p{
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.clear{
+    clear:both;
+}
+.footer{
+    background-color: #221177;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+}
+p.footer-p{
+    padding: 10px 0px;
+    list-style: none;
+    margin:0px;
+}
+
+a.showmore-button{
+    height: 20px;
+    background-color: #221177;
+    color:white;
+    padding:5px 15px;
+    text-decoration: none;
+    
+}
+a.showmore-button:hover{
+    background-color:#221155;
+    text-align: end;
+}
+
+
+/*Animation Area*/
+
+.bottom-container
+{
+    height:100px;
+    background-color: royalblue;
+}
+
+.box
+{
+  width: 275px;
+  height: 100px; 
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px solid rgba(0,0,0,.2);
+  color: #33E9FF;
+  overflow: hidden; 
+    background-color: royalblue;
+    float:left;
+    padding: 30px 20px;
+    color:white;
+    font-weight:bold;
+}
+
+
+
+.animate-color:hover {
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:red;}
+  25%  {background-color:yellow;}
+  50%  {background-color:blue; }
+  75%  {background-color:green; }
+  100% {background-color:red; }
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; }
+  25%  {background-color:yellow;}
+  50%  {background-color:blue; }
+  75%  {background-color:green; }
+  100% {background-color:red;}
+}
+
+
+
+/*page about us*/ 
+
+
+.about-us-body-background {
+    
+    font-family: sans-serif;
+    background-image: url("../images/water.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+     background-image: url("../images/wano.jpg");
+    
+}
+.about-us-image-content-p{
+	font-size: 14px;
+}
+
+.aboutus-container {
+    
+    background-image: url(../images/pure.jpg);
+    width: 1100px;
+    margin:auto;
+    padding: 20px;
+}
+
+
+/*page Contact us*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+.contact-background-image {
+background-image: url(../images/pure.jpg);
+
+}
+
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0;
+  background-image:  url(../images/pure.jpg);
+  height: 620px;
+  text-align: left;
+}
+
+
+.column {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.contact-footer {
+    margin-top: 30px;
+    background-color: #221177;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+}
+.contact-footer-p{
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .column, input[type=submit] {
+    width: 70%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+/*page Sign Up*/
+
+
+
+.signup-container {
+    
+    width: 1000px;
+    margin:auto;
+    padding: 20px;
+    background-image: url(../images/tubig.jpg);
+    background-repeat:no-repeat;
+    text-align: center;
+}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  
+}
+
+
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+.signup-footer {
+    margin-top: 90px;
+    background-color: #221177;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+}
+.signup-footer-p{
+    padding: 10px 0px;
+    list-style: none;
+}
+
+
+
+
+
+
+/*page Login*/
+
+
+.body-background {
+      background-image:  url(../images/pure.jpg);
+    text-align: center;
+    padding: inherit;
+    
+}
+
+.login-container{
+    width: 1000px;
+    margin:auto;
+    padding: 20px;
+    background-image: url(../images/tubig.jpg);
+    background-repeat:no-repeat;   
+    text-align: center;
+    padding-left: 0;
+}
+
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: ;
+}
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.login-footer {
+    margin-top: 100px;
+    background-color: #221177;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+}
+.login-footer-p{
+    padding: 10px 0px;
+    list-style: none;
+}
+
+
+
